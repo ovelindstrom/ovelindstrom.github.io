@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Code & Cadance
+title: About
 permalink: /about/
 ---
 This site is a personal reflection site that contains things that does not really fit on other blog sites
