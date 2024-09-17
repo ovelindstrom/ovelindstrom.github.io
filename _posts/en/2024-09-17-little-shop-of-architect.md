@@ -5,7 +5,7 @@ date:   2024-09-17 09:20:00 +0200
 categories: english
 ---
 
-Insprired by [The Dentis Song](https://www.youtube.com/watch?v=bOtMizMQ6oM) from _Little Shop of Horror._
+Insprired by [The Dentist Song](https://www.youtube.com/watch?v=bOtMizMQ6oM) from _Little Shop of Horror._
 
 __Verse 1__  
 When I was younger, just a coder with no fear,  
