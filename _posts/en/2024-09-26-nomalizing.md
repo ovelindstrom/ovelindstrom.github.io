@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Normalicy bias!"
-date:   2024-09-26 14:300:00 +0200
+date:   2024-09-26 14:30:00 +0200
 categories: english
 ---
 
