@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Normalcy bias!"
+title:  "Normalicy bias!"
 date:   2024-09-26 14:300:00 +0200
 categories: english
 ---
@@ -9,7 +9,7 @@ Normalicy bias, or normality bias, depending on where in the world you speak eng
 
 I mean, the gearshifting on my commuter bike, knows as Snow White, wasn't that bad. It shifted, most of the time. I just needed to use a bit more force.
 
-And the chain had "only" done 2 years of service and about 6000 km commuting (I do about 3000 km/year commuting according to Stava). Plus some extra non-logged ones, but everyone knows that if it is not on Strava, it does not count,
+And the chain had "only" done 2 years of service and about 6000 km commuting (I do about 3000 km/year commuting according to Stava). Plus some extra non-logged ones, but everyone knows that if it is not on Strava, it does not count...
 
 And I did change the cassette. When I got the new wheels. In 2020. Or something like 13.000 km ago.
 
