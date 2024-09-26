@@ -24,11 +24,11 @@ Yes, I'm the architect of doom—
 I make your failures bloom!
  
 __Verse 2__  
-Refactor, rewire, I feast on the pain,
-I’ll rewrite your dreams 'till no trace remain.
-Data leaks and outages — they fuel my fire,
-I'll architect your downfall, then watch you expire!
- 
+Refactor, rewire, I feast on the pain,  
+I’ll rewrite your dreams 'till no trace remain.  
+Data leaks and outages — they fuel my fire,  
+I'll architect your downfall, then watch you expire!  
+
 __Chorus__  
 You’ll be a software architect!  
 (You'll be an architect!)  
