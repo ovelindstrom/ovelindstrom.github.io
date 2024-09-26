@@ -17,12 +17,12 @@ And yes, I do take good care of my bikes so it is a lot. But slowly the small th
 
 Soon came abruptly a couple of days ago, when I snapped my chain. Luckily for me, about 200 meters from my LBS. So I went in and got a new chain and a quick-link from the shelf and paid for it. Totally ignoring the rest of the drivetrain. Becaue that is what you do when you normalize a behaviour.
 
-Snow White had other ideas yesterday. I could run in gears 1, 2, 7 and 8 on the cassette and the middle gear on the front sprocket. Not a pleasant commute when I was either un to low gear or to high. And any gears in between caused a chaing that jumped a cog or two.
+Snow White had other ideas yesterday. I could run in gears 1, 2, 7 and 8 on the cassette and the middle gear on the front sprocket. Not a pleasant commute when I was either to low geared or to high. And any gears in between made the chain jump a cog or two.
 
 Luckily for me, I have the great LBS, (Tellus Cykel & Motor)[https://telluscykel.se/], on my way home. So I dropped Snow White into the hands of the mechanics there and walked the rest of the way home.
 
 And today I could pick her up, with a fresh drievetrain, a new gear-wire and housing, the derailleur hanger straightend and some other small stuff.
 
-And now everything is smooth as silk again. The gearchanges are distinct and instant. The bike is silent when pedalling. I got a new Snow White.
+Now everything is smooth as silk again. The gearchanges are distinct and instant. The bike is silent when pedalling. I got a new Snow White.
 
 Yeh, the "bike dwarfs" at my LBS know how to dig for gold, but now I have a couple of years left on that bike.
