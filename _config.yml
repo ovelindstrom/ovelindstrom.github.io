@@ -26,6 +26,10 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.codecadence.se/" # the base hostname & protocol for your site, e.g. http://example.com
 
+# Social Links
+github_username: ovelindstrom
+linkedin_username: ovelindstrom
+twitter_username: limestream
 
 # Build settings
 theme: minima
@@ -35,10 +39,7 @@ plugins:
 
 minima:
   date_format: "%Y-%m-%d"
-  social_links:
-    github: ovelindstrom
-    linkedin: ovelindstrom
-    x: limestream
+
 
 
 
