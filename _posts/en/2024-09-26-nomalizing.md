@@ -19,7 +19,7 @@ Soon came abruptly a couple of days ago, when I snapped my chain. Luckily for me
 
 Snow White had other ideas yesterday. I could run in gears 1, 2, 7 and 8 on the cassette and the middle gear on the front sprocket. Not a pleasant commute when I was either to low geared or to high. And any gears in between made the chain jump a cog or two.
 
-Luckily for me, I have the great LBS, (Tellus Cykel & Motor)[https://telluscykel.se/], on my way home. So I dropped Snow White into the hands of the mechanics there and walked the rest of the way home.
+Luckily for me, I have the great LBS, [Tellus Cykel & Motor](https://telluscykel.se/), on my way home. So I dropped Snow White into the hands of the mechanics there and walked the rest of the way home.
 
 And today I could pick her up, with a fresh drievetrain, a new gear-wire and housing, the derailleur hanger straightend and some other small stuff.
 
