@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Endurokurs med Moutainbikeskolan"
+title:  "Endurokurs med Mountainbike-skolan"
 date:   2024-10-09 10:00:00 +0200
 categories: svenska mtb
 ---
@@ -33,7 +33,7 @@ Avslutningen är ett rejält stökigt parti innan man kommer ner till grusvägen
 
 Vid det här laget är jag sopslut i kroppen så vi avslutar lite tidigt och cyklar tillbaka till Källtorp. På väg tillbaka tränar vi en del snabba och kraftiga svängar på grus. Det är sjukt roligt när jag äntligen fattar hur man så att säga ger stödgas och gasar sig ut genom en kurva på en MTB. Det är inte med pedalerna...
 
-[Strava-länk till eftermiddagens runda](https://www.strava.com/activities/12588090604)
+[Strava-länk till eftermiddagens runda, kräver inloggning](https://www.strava.com/activities/12588090604)
 
 ### Sammanfattning och Top 3
 
