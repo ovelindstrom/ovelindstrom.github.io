@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DTO or not DTO?"
-date:   2024-11-15 12:00:00 +0200
+date:   2024-11-15 10:00:00 +0200
 categories: english
 ---
 It all started with a code review. A developer had added a method in a class that created a hard dependency between several other domain classes and value objects. My statement was "That violates the [DTO Pattern](https://martinfowler.com/eaaCatalog/dataTransferObject.html), move that method to an Assembler instead". A sentence that for me made perfect sense, since I have read mr Fowlers book on Enterprise Pattern several times.
