@@ -11,6 +11,8 @@ My statement was "That violates the [DTO Pattern](https://martinfowler.com/eaaCa
 
 But that was not the case with all developers. So let us dive into the world of Data Transfer objects, Value Objects and Business Objects.
 
+![ChatGPT generated Splash image for DTO](/images/posts/dto-not-dto.webp){:width="50%"}
+
 ## DTO - Data Transfer Object
 
 > In the field of programming a data transfer object, DTO, is an object that
