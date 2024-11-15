@@ -236,3 +236,6 @@ Choosing whether to use a DTO or not depends on your system's design and the spe
  
  By following best practices and understanding the distinctions between DTOs, Value Objects, and Domain Objects,
  you as a developer can ensure more maintainable, efficient, and understandable code.
+
+
+ _This blog post is also cross posted at https://callistaenterprise.se/_
