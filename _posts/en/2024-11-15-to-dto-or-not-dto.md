@@ -4,7 +4,10 @@ title:  "DTO or not DTO?"
 date:   2024-11-15 10:00:00 +0200
 categories: english
 ---
-It all started with a code review. A developer had added a method in a class that created a hard dependency between several other domain classes and value objects. My statement was "That violates the [DTO Pattern](https://martinfowler.com/eaaCatalog/dataTransferObject.html), move that method to an Assembler instead". A sentence that for me made perfect sense, since I have read mr Fowlers book on Enterprise Pattern several times.
+It all started with a code review. A developer had added a method in a class that created a hard dependency between several other domain classes and value objects and then exposed everything
+to the Web UI.
+ 
+My statement was "That violates the [DTO Pattern](https://martinfowler.com/eaaCatalog/dataTransferObject.html), move that method to an Assembler instead". A sentence that for me made perfect sense, since I have read mr Fowlers book on Enterprise Pattern several times.
 
 But that was not the case with all developers. So let us dive into the world of Data Transfer objects, Value Objects and Business Objects.
 
