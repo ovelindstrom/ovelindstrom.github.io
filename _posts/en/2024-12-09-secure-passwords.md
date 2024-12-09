@@ -8,15 +8,20 @@ categories: english
 __Scene:__
 
 <i>
-It’s a cold Monday morning in early December. Stockholm is not showing its best side to visiting Nobel laureates. The sky is a dull gray, heavy with unfallen snow. A light wind carries a faint bite, swirling icy particles that are neither snow nor rain through the air. The only ones still daring to bike to work are the likes of our hero, Dan, and the occasional student who can’t afford a commute card due to the upcoming Lucia party.
+It’s a cold Monday morning in early December. Stockholm is not showing its best side to visiting Nobel laureates. The sky is a dull gray, heavy with unfallen snow. A light wind carries a faint bite, swirling icy particles that are neither snow nor rain through the air. The only ones still daring to bike to work are the likes of our hero, Dan, and the occasional student who can’t afford a commute card due to the upcoming Lucia party.</i>
 
+<i>
 In the cozy developer den of a small product company, our hero and his fellow software developers prepare for this week’s first daily stand-up. The upcoming "ugly Christmas sweater" day on Friday—an event that almost always gets at least one of them sent to HR—is the main topic of discussion. A crackling fireplace video from YouTube flickers on a screen, lighting up their faces.
-
-At the start of the stand-up, our antagonist (and every good story must have one), their ever-charming yet somewhat dimwitted CTO, Archibald P. Martin, enters the room. Sharing his last name, inheritance, and demeanor with Sir James Martin from Jane Austen’s book Lady Susan, the developers have nicknamed him Sir Clicksworth (because, as he once exclaimed, "These buttons! They… click!").
-
-The Scrum Master, Henry, looks at Dan, his System Architect, with a mix of anticipation and dread. Sir Clicksworth’s visits often bring with them a new buzzword-laden proclamation.
-
 </i>
+
+<i>
+At the start of the stand-up, our antagonist (and every good story must have one), their ever-charming yet somewhat dimwitted CTO, Archibald P. Martin, enters the room. Sharing his last name, inheritance, and demeanor with Sir James Martin from Jane Austen’s book Lady Susan, the developers have nicknamed him Sir Clicksworth (because, as he once exclaimed, "These buttons! They… click!").
+</i>
+
+<i>
+The Scrum Master, Henry, looks at Dan, his System Architect, with a mix of anticipation and dread. Sir Clicksworth’s visits often bring with them a new buzzword-laden proclamation.
+</i>
+
 ---
 
 "Good morning, Archie. What can we do for you today?" Henry greets his CTO.
