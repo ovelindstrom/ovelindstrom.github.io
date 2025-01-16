@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Om att gräva diken samtidigt"
-date:   2024-12-12 10:00:00 +0200
+date:   2025-01-16 15:00:00 +0200
 categories: svenska kontextbyte ledarskap
 ---
 Jag hade ett samtal med en god vän idag om livet i allmänhet och jobbet i synnerhet. Vännen ville ventilera ett litet problem som hade uppstått på jobbet och det fanns behov av att låta "metaforenas mästare" (inte jag som kallar mig själv för det) beskriva mer konkret hur det kändes och varför det kändes så ohållbart med det som föreslagits.
