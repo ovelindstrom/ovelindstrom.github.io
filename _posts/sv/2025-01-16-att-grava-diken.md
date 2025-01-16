@@ -29,13 +29,13 @@ För närvarande så har vännen 2 olika diken som underhålls. Det ena har hen 
 
 Nu har hen blivit ombedd att också, samtidigt, vara med och gräva ett till nytt dike och se till att ett nytt dike underhålls.
 
-Det första diket ska grävas i en helt ny jordmån. Hen har aldrig grävt diken i stenrik jord förut men "hur svårt kan det vara, det är ju bara att gräva diket" är vad som sägs på möten. Fast hen är osäker på om hen verkligen har rätt spade för att gräva det här diket eller om det behövs andra verktyg. Eller i västa fall, spränga bort berg. **Och det skapar en oro och en stress.**
+Det första diket ska grävas i en helt ny jordmån. Hen har aldrig grävt diken i stenrik jord förut men "hur svårt kan det vara, det är ju bara att gräva diket" är vad som sägs på möten. Fast hen är osäker på om hen verkligen har rätt spade för att gräva det här diket eller om det behövs andra verktyg. Eller i värsta fall, spränga bort berg. **Och det skapar en oro och en stress.**
 
 Det andra diket, det som ska underhållas, är i och för sig ett dike, men det är inte till för att leda in vatten till odlingarna, det är till för att dränera vatten från en sumpmark. Fast bara om det regnar och bara om vattennivån är över 60 cm och om det är någon som behöver komma över och använda spängerna som går över sumpmarken. Annars kan man strunta i det diket. 
 
 Så här har vi en kognitiv belastning och parametrar som gör det prioriterat över de andra, men bara vid tillfällen som inte är under egen kontroll.
 
-Förutsöttningarna är alltså att bolla hanteringen av fyra diken där tre av dem är för att bevattna odlingar och det sista är till för att leda bort vatten och frigöra en spång. Vi har ett dike som ska grävas i mark som är helt okänt och ett dike som ibland behöver ha uppmärksamhet och för att vara beredd så måste man hela tiden kika på väderprognoserna.
+Förutsättningarna är alltså att bolla hanteringen av fyra diken där tre av dem är för att bevattna odlingar och det sista är till för att leda bort vatten och frigöra en spång. Vi har ett dike som ska grävas i mark som är helt okänt och ett dike som ibland behöver ha uppmärksamhet och för att vara beredd så måste man hela tiden kika på väderprognoserna.
 
 Givetvis är det lite avstånd mellan dikena. Det är inte för samma bonde vi gräver, eller ens i samma fält. Det kommer att krävas att man flyttar på sig mellan dikena. 
 
@@ -69,7 +69,7 @@ Ingen av dessa scenarion är optimala.
 
 Låt oss lämna diket en stund, för jag tror redan att ni inser att den här typen av grävande inte är bra för kroppen och knoppen och knappast kommer att ge massor av pengar i plånboken (i alla fall inte hos någon som gräver) och göra det riktigt absurt.
 
-10-kamp. Det besår av följande grenar:
+10-kamp. Det består av följande grenar:
 - 100 meter löpning så fort som möjligt på en rak bana.
 - Längdhopp, springa fort rakt fram och hoppa i en sandlåda.
 - Kulstötning, hiva en 7,26 kg tung kula ur en ring.
@@ -95,9 +95,11 @@ Så vi slår ihop en del grenar.
 
 Och till slut, *400 meter höjdhopp*, var 100:e meter så ska du floppa över en ribba. Jo, vi funderade på att kalla det 400 meter häck, men IOC påpekade att det redan finns en sådan gren.
 
+Optimering och kontextbyten är sällan bra för flödet och ska man göra många saker så måste man acceptera att det tar tid och att det blir en del förflyttningar och det går åt tid mellan grenarna.
+
 ## Att gräva eller inte gräva?
 
-Så, vad rekommenderade jag? Gräv inte... och om du absolut måste gräva, se till att få tillräckligt bra betalt för att helt och hållet sluta gräva. Och se till att det finns stödfunktioner för att göra dessa snabba byten. Om du är företagsledare idag så är det mycket som att gräva många diken samtidigt. Eller snarare så är du ansvarig för dikena och ser till att du har de bästa på att förbereda när du kommer och ska gräva lite, har all information du behöver för att bestämma riktningen på diket och framför allt har du så pass bra betalt att när markägaren ber dig dra åt pipsvängen och gå och gräva någon annanstans, så har du råd att bara pilla lite med en liten spade i ditt eget trädgårdsland.
+Så, vad rekommenderade jag? Gräv inte... och om du absolut måste gräva, se till att få tillräckljigt bra betalt för att helt och hållet sluta gräva. Och se till att det finns stödfunktioner för att göra dessa snabba byten. Om du är företagsledare idag så är det mycket som att gräva många diken samtidigt. Eller snarare så är du ansvarig för dikena och ser till att du har de bästa på att förbereda när du kommer och ska gräva lite, har all information du behöver för att bestämma riktningen på diket och framför allt har du så pass bra betalt att när markägaren ber dig dra åt pipsvängen och gå och gräva någon annanstans, så har du råd att bara pilla lite med en liten spade i ditt eget trädgårdsland.
 
 Men jag skulle aldrig ställa upp på att gräva diken på det här sättet igen och jag rekommenderar ingen att gräva för många diken samtidigt. Både jag och min vän är sådana som gärna har ett par olika diken som vi gräver i samtidigt för annars blir vi uttråkade. Vi är lite som skidskyttar. Vi skidar gärna och vi skjuter gärna men om vi måste göra bara det ena eller det andra blir vi uttråkade. Men vi är också duktiga på själva transitionen mellan skidspåret och skjutvallen och som de agilister vi är så är vi de första som erkänner att det skulle vara mycket bättre om vi sköt alla 4 serierna i en följd innan vi ger oss ut och skidar. Dels för att vi slipper 8 transitioner och dels för att vi skulle ha mycket mindre puls när vi skjuter.
 
