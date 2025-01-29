@@ -28,7 +28,12 @@ layout: default
   </div>
 
   <div>
-    <p><span class="share-box">Share:</span> <a href="http://twitter.com/share?text={{ page.title }}&url={{site.url}}{{page.url}}" target="_blank">Twitter</a>, <a href="https://www.facebook.com/sharer.php?u={{site.url}}{{page.url}}" target="_blank">Facebook</a></p>
+    <p><span class="share-box">Share:</span>
+      
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url={{site.url}}{{page.url}}&title={{ page.title }}" target="_blank"><i class="svg-icon linkedin"></i></a>,
+      <a href="https://bsky.app/share?text={{ page.title }}%20{{site.url}}{{page.url}}" target="_blank"><img src="/images/bluesky-logo.png" alt="BlueSky" class="svg-icon"></a>,
+      <a href="https://x.com/intent/tweet?text={{ page.title }}&url={{site.url}}{{page.url}}" target="_blank"><i class="svg-icon x"></i></a>,
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" target="_blank"><i class="svg-icon facebook"></i></a>
   </div>
 
   <!--<div class="date">
