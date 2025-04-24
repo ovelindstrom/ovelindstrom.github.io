@@ -68,7 +68,7 @@ __Dan__; (Går mot dörren) Nej tack, Rut. Jag tror jag tar en sallad idag. Men 
 __Rut__: (Nickar bestämt) Det kan vi absolut göra. Men kom ihåg, uga man: bäst att ha grejerna på plats. Som en rejäl biff. Man vet vad man får. Och Bertil vet var skruvmejseln finns.
 
 <i>
-Dan lämnar rummet, som vanligt lätt skakandes på huvudet. Tant Råbiff lutar sig tillbaka på sin stol, nöjd med sitt beslut att än en gång satt stopp för moderna stollerier.
+Dan lämnar rummet, som vanligt lätt skakandes på huvudet. Tant Råbiff lutar sig tillbaka på sin stol, nöjd med sitt beslut att än en gång satt stopp för moderna stollerier. Här ska det inte moderniseras något.
 </i>
 
 
