@@ -51,7 +51,7 @@ minima:
   date_format: "%Y-%m-%d"
 
 # Theme Reverie
-permalink: /:title/
+permalink: /:year/:month/:day/:title/
 
 version: v4.4.0
 
