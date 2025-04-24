@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Men snälla Rut Råbiff!!"
-date:   2025-04-25 19:00:00 +0200
+date:   2025-04-24 10:00:00 +0200
 categories: svenska 
 ---
 
