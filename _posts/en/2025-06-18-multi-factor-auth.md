@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A bold statement about password security"
+title:  "Make Multifactor authentication easy"
 date: 2025-06-18 08:00:00 +0200
 categories: english
 ---
