@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A bold statement about password security"
-date:   2025-06-18 10:00:00 +0200
+date: 2025-06-18 08:00:00 +0200
 categories: english
 ---
 __Scene:__
