@@ -187,8 +187,166 @@ async function getCheckedInPassengerCounts(connection, busIds) {
 }
 ```
 
-Hmm... vad gör `const maxPassengers = await getMaxPassengers(connection, busId);`? Vi kan ju hoppas att den  har en Map med busId:s och dess kapacitet, men så visade det sig inte vara utan man ställer den komplexa JOIN-frågan som plockar fram calculated_max_passengers för alla router till databasen vid VARJE fråga och så ittererar man över svaret tills man hittar rätt routeId...
+Hmm... vad gör `const maxPassengers = await getMaxPassengers(connection, busId)`? Vi kan ju hoppas att den  har en Map med busId:s och dess kapacitet, men så visade det sig inte vara utan man ställer den komplexa JOIN-frågan som plockar fram calculated_max_passengers för alla router till databasen vid VARJE fråga och så itererar man över svaret tills man hittar rätt routeId...
 
 ## Counters
 
-Egentligen är vi bara intresserade av räknarna medans vi håller på att lasta ombord passagerarna. Så genom att initerar en 
+Egentligen är vi bara intresserade av räknarna medans vi håller på att lasta ombord passagerarna. Så genom att initerar ett antal räknare när vi startar lastningen av bussarna får vi det mycket enklare och mer effektivt.
+
+De räknare vi behöver är:
+- Totala antalet passagerare lastade - initieras till 0
+- Total Kapacitet kvar - initieras till summan av alla säten i bussarna och räknas ner.
+- En uppsättning med ovanstående räknare, men baserat på bussId.
+
+Jag skulle också, för enkelhetens skull, lägga till en konstant som håller Maximalt antal säten i bussarna och Maximalt antal passagerare så att det enkelt går att ta fram hur många säten det finns över och hur många passagerare som ännu inte stigit på.
+
+Min pseudokod blir något i den här stilen:
+
+```javascript
+const mysql = require('mysql2/promise');
+
+class BusRouteCounters {
+    constructor(connection, routeId) {
+        this.connection = connection;
+        this.routeId = routeId;
+        
+        // Bus counters: busId -> { passengerCount: number, capacityLeft: number, maxSeats: number }
+        this.busCounters = new Map();
+        
+        // Route totals
+        this.routeTotals = {
+            totalPassengers: 0,
+            totalCapacityLeft: 0,
+            totalMaxSeats: 0
+        };
+        
+        this.initialized = false;
+    }
+    
+    async initialize() {
+        if (this.initialized) return;
+        
+        try {
+            // Get all buses assigned to this route with their capacity
+            const [buses] = await this.connection.execute(`
+                SELECT DISTINCT b.bus_id, b.max_seats 
+                FROM Busses b
+                JOIN Route_Assignments ra ON b.bus_id = ra.bus_id
+                WHERE ra.route_id = ? AND b.is_active = TRUE
+            `, [this.routeId]);
+            
+            // Initialize bus counters
+            for (const bus of buses) {
+                // Get current passenger count for this bus
+                const [passengerRows] = await this.connection.execute(`
+                    SELECT COUNT(bp.passenger_id) as checked_in_passengers 
+                    FROM Booked_Passengers bp 
+                    WHERE bp.checked_in_bus_id = ?
+                `, [bus.bus_id]);
+                
+                const currentPassengers = passengerRows[0].checked_in_passengers;
+                const capacityLeft = Math.max(0, bus.max_seats - currentPassengers);
+                
+                this.busCounters.set(bus.bus_id, {
+                    passengerCount: currentPassengers,
+                    capacityLeft: capacityLeft,
+                    maxSeats: bus.max_seats
+                });
+                
+                // Update route totals
+                this.routeTotals.totalPassengers += currentPassengers;
+                this.routeTotals.totalCapacityLeft += capacityLeft;
+                this.routeTotals.totalMaxSeats += bus.max_seats;
+            }
+            
+            this.initialized = true;
+            console.log(`Counters initialized for route ${this.routeId}`);
+            this.printStatus();
+            
+        } catch (error) {
+            console.error('Error initializing counters:', error);
+        }
+    }
+    
+    // Register a passenger to a specific bus (up latch passenger count, down latch capacity)
+    async registerPassengerToBus(passengerId, busId) {
+        const busCounter = this.busCounters.get(busId);
+        
+        // Update database - set checked_in_bus_id for the passenger
+        await this.connection.execute(`
+            UPDATE Booked_Passengers 
+            SET checked_in_bus_id = ? 
+            WHERE passenger_id = ? AND route_id = ?
+        `, [busId, passengerId, this.routeId]);
+        
+        // Up latch passenger count
+        busCounter.passengerCount++;
+        this.routeTotals.totalPassengers++;
+        
+        // Down latch capacity left
+        busCounter.capacityLeft--;
+        this.routeTotals.totalCapacityLeft--;
+        
+        console.log(`Passenger ${passengerId} registered to bus ${busId}. New counts: ${busCounter.passengerCount}/${busCounter.maxSeats}`);
+    }
+     
+    // Get bus status
+    getBusStatus(busId) {
+        const busCounter = this.busCounters.get(busId);
+        if (!busCounter) {
+            throw new Error(`Bus ${busId} not found in route ${this.routeId}`);
+        }
+        
+        return {
+            busId: busId,
+            passengerCount: busCounter.passengerCount,
+            capacityLeft: busCounter.capacityLeft,
+            maxSeats: busCounter.maxSeats,
+            occupancyRate: ((busCounter.passengerCount / busCounter.maxSeats) * 100).toFixed(1) + '%'
+        };
+    }
+    
+    // Get route totals
+    getRouteTotals() {
+        return {
+            routeId: this.routeId,
+            totalPassengers: this.routeTotals.totalPassengers,
+            totalCapacityLeft: this.routeTotals.totalCapacityLeft,
+            totalMaxSeats: this.routeTotals.totalMaxSeats,
+            totalOccupancyRate: ((this.routeTotals.totalPassengers / this.routeTotals.totalMaxSeats) * 100).toFixed(1) + '%'
+        };
+    }
+    
+    // Get all bus statuses
+    getAllBusStatuses() {
+        const statuses = [];
+        for (const busId of this.busCounters.keys()) {
+            statuses.push(this.getBusStatus(busId));
+        }
+        return statuses;
+    }
+}
+```
+
+## Summering
+
+Det finns ett antal olika sätt att göra det här och jag är egentligen inte emot att använda SQL om det handlar om normaliserad data. En lite guide för när man ska använda vilken metod i SQL.
+
+| Metod                      | Läshastighet | Datauppdatering       | Bäst för...                                                        |
+|:---------------------------|:-------------|:----------------------|:-------------------------------------------------------------------|
+| View                       | Slow         | 100% Real-time        | Förenkling och för att gömma komplexa joins.                       |
+| Stored Procedure           | Slow         | 100% Real-time        | Bäst för återanvändning och för att kapsla in databaslogik.        |
+| Trigger with Stored Column | Fastest      | 100% Real-time        | Maximal läshastighet och garanterad data-integritet.               |
+| Materialized View          | Fast         | Stale until refreshed | Högprestandarapportering  av data som inte ändrar på sig så ofta.  |
+
+Med counters så har vi alltid en konstant läshastighet på O(1) och om vi vill så skulle vi kunna göra det event-drivet och lägga uppdateringarna av databasen i en egen worker. Om vi kikar på vad SQL frågorna kostar så blir det lite mer komplext. För beräkningen av totalkapaciteten så får vi $$O(N_{routes} + N_{assignments} + N_{busses})$$
+
+Nerbrutet så får vi följande effekt:
+- Databasen måste komma åt alla rader i `Routes` eftersom den är bas-tabellen.
+- När vi gör en `JOIN` på `Route_Assignments` måste vi lägga på ytterligare ett N. I värsta fall måste vi även här göra en full scan av tabellen.
+- Och så gör vi ytterligare en `JOIN` på `Busses` vilket kan göra att vi får en full scan.
+- Och om vi gör en `GROUP BY` så kommer vi, i värsta fall, att behöva göra en full scan på det dataset som vi skapat med våra joins.
+
+Det här är helt okej så länge som alla tabeller är små. Men när datamängderna växer, med många bussar, många passagerare och många rutter, så blir det snabbt långsamt (pun intended). Speciellt om man inte har en bra indexering på sina tabeller. I en simulering jag gjorde där jag stängde av indexeringen så närmade sig komplexiteten $O(N*M)$ för varje `JOIN`.
+
+Moderna SQL-motorer som Postgres och SQL Server är väldigt bra på att optimera det här för att få hög prestanda. Men det finns ingenting som slår direkt minnesåtkomst. Om vi gör ett antagande att vi har en rutt med 4 bussar, 100 passagerare så är det inte mer än 109 Java-object att skapa som i minnet skulle ta ca 10 kilobytes. Så även om vi skulle ha 240 rutter med 3 bussar och säg 70% fullt så är det fortfarande bara runt 2 MB i minnet för att hantera en hel dag. Och det finns många bra ramverk, som Spring Data JPA, för att förenkla den här typen av hantering.
