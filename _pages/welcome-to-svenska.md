@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
 title:  "Välkommen till Code and Cadence"
-date:   2024-08-30 15:57:15 +0200
-categories: welcome svenska
+permalink: /welcome-to-svenska/
 ---
 # Välkommen kodare, biker, främling
 
