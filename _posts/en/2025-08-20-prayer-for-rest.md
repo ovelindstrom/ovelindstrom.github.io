@@ -1,13 +1,14 @@
+---
 layout: post
 title:  "A prayer for REST"
 date: 2025-08-20 08:00:00 +0200
 categories: english
-
+---
 <div class="poem">
-As I lay my head to REST,<br>
-I pray my UI will be blessed.<br>
-May my code be clean and bright,<br>
-and load successfully tonight.<br>
+As I lay my head to REST,
+I pray my UI will be blessed.
+May my code be clean and bright,
+and load successfully tonight.
 <br>
 Carry on, my devious son,<br>
 for there'll be peace when you are done.<br>
