@@ -10,23 +10,23 @@ I pray my UI will be blessed.
 May my code be clean and bright,
 and load successfully tonight.
 <br>
-Carry on, my devious son,<br>
-for there'll be peace when you are done.<br>
-Lay your weary head to REST,<br>
-don't you CRUD no more.<br>
-<br>
-Get my front-end out of its rigid, RESTful cage.<br>
-A single endpoint for every field,<br>
-a hundred calls to turn a page.<br>
-One giant button to make it go,<br>
-a button for a hundred things,<br>
-What a pain to make it all work,<br>
-what a pain to hear it sing.<br>
-<br>
-Oh, for BFF to descend from the skies,<br>
-To unify the data right before my eyes.<br>
-Just one request to get the view I need,<br>
-And bring salvation to my front end's creed.<br>
-<br>
+Carry on, my devious son,
+for there'll be peace when you are done.
+Lay your weary head to REST,
+don't you CRUD no more.
+
+Get my front-end out of its rigid, RESTful cage.
+A single endpoint for every field,
+a hundred calls to turn a page.
+One giant button to make it go,
+a button for a hundred things,
+What a pain to make it all work,
+what a pain to hear it sing.
+
+Oh, for BFF to descend from the skies,
+To unify the data right before my eyes.
+Just one request to get the view I need,
+And bring salvation to my front end's creed.
+
 Don't you CRUD no more.
 </div>
