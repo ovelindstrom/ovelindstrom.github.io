@@ -2,7 +2,6 @@
 <html>
 
 <head>
-  {% include google-tag_head.html %}
   <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
   {% seo title=false %}
   {% include meta.html %}
@@ -18,9 +17,6 @@
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K6NPM5Z3" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
   <div id="bar"></div>
   <div class="wrapper-container">
     <div class="wrapper-masthead">
@@ -60,7 +56,8 @@
     </div>
   </div>
 
-  {% include analytics.html %}
+
+  {% include cookie-consent.html %}
 </body>
 
 </html>
