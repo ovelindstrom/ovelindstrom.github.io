@@ -39,13 +39,13 @@ Det är svårt att kort sammanfatta vad som står i rapporten utan att skriva he
 - jag bryr mig mycket om andra, känner stor medkänsla och drivs av att hjälpa andra.
 - jag har en mycket begränsad krets med personer jag är helt bekväm med.
 - jag föredrar ordning och struktur, men har inget problem med spontanitet eller om det är stökigt.
-- jag är mestadels introvert och reserverad, samtidigt som jag är rak, rättsam och bekvän med konflikter.
-- jag har lätt för att uttrycka mig och har ett stort ordföråd.
+- jag är mestadels introvert och reserverad, samtidigt som jag är rak, rättsam och bekväm med konflikter.
+- jag har lätt för att uttrycka mig och har ett stort ordförråd.
 - jag har inget emot att vara själv, men tycker inte om att vara ensam.
 - jag har en stark drivkraft att få tillhöra något.
 - mycket innovativ, nyfiken och förändringsbehägen. Mycket starkt rättspatos. I alla de här områden ligger jag i övre percentilen.
 
-Psykologen sammanfattade det som "smart, snabbtänkt, rättvis, innovativ, elastiskt i tanken (läs mycket fantasi) men känslig och emotionell". Hon förklarade att min neurologiska profil dras mot neurodiversitet och avviker lite mot vad som är normalt i samhället. Men inte tillräckligt för att vara en ND-diagnos. "Du är författare. Du har bara inte förstått det ännu."
+Psykologen sammanfattade det som "smart, snabbtänkt, rättvis, innovativ, elastiskt i tanken (läs mycket fantasi) men känslig och emotionell". Hon förklarade att min neurologiska profil drar mot neurodiversitet och avviker lite mot vad som är normalt i samhället. Men inte tillräckligt för att vara en ND-diagnos. "Du är författare. Du har bara inte förstått det ännu."
 
 Hon introducerade mig också för Kazimierz Dabrowskis "Theory of Positive Disintegration" (TPD). På svenska heter det "Teorin om Positiv Upplösning". Ett av det centrala begreppen är "överexcitabilitet" (OE) som delas in i fem olika delar; psykomotorisk, sensuell, imaginär, intellektuell och emotionell. Överexcitabilitet är ett lite konstruerat ord på svenska. Jag ser det som förhöjd reaktionsförmåga eller högintensitet och tänker använda mig av den senare.
 
@@ -53,7 +53,7 @@ Här kommer jag att fokusera på två av högintensiteterna: Intellektuell (IOE)
 
 Tillsammans så kan Intellektuell och Psykomotorisk Högintensitet skapa friktion när de triggas av inre (tankar) och yttre (händelser) runt omkring mig.
 
-Intellektuell Högintensitet manifesterar sig ofta i att man är snabb på att processa information, enkelt förstår problem och kan se mönster och beroenden, är nyfiken och har en bred allmänbildning. Det som är positivt är att en IOE-person är bra på kritiskt tänkande och analys och har lätt att vara innovativ. IOE-personligheter har nästan alltid ett stort ordföråd och använder gärna synonymer och metaforer för att få fram sin poäng. Men det gör också att en IOE-personlighet kan uppfattas som uttråkad och otålig när diskussionstakten är för låg och det analytiska djupet och komplexiteten kan också bli överväldigande för andra.
+Intellektuell Högintensitet manifesterar sig ofta i att man är snabb på att processa information, enkelt förstår problem och kan se mönster och beroenden, är nyfiken och har en bred allmänbildning. Det som är positivt är att en IOE-person är bra på kritiskt tänkande och analys och har lätt att vara innovativ. IOE-personligheter har nästan alltid ett stort ordförråd och använder gärna synonymer och metaforer för att få fram sin poäng. Men det gör också att en IOE-personlighet kan uppfattas som uttråkad och otålig när diskussionstakten är för låg och det analytiska djupet och komplexiteten kan också bli överväldigande för andra.
 
 Psykomotorisk Överexcitabilitet (POE) handlar om personens fysiska energi, impulsivitet, snabba sätt att prata och en tendens till att gärna röra på sig när man tänker. En POE beskrivs ofta som teatralisk när denna har 4 white-board-pennor i handen och fyller tavlan med snabba skisser medan de pratar med hela kroppen. Det brukar fylla rummet med energi och de driver fram handling. Men, med snabbt och ordrikt språk, ett visuellt yvigt fysiskt kroppsspråk och intensitet är det lätt att andra kan uppfatta en som agiterande, dominerande eller t.o.m. aggressiv.
 
