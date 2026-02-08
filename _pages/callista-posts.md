@@ -1,4 +1,4 @@
-git pu---
+---
 layout: page
 title: Callista Enterprise Posts
 permalink: /callista-posts/
