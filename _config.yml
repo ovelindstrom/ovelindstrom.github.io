@@ -23,9 +23,9 @@ name: Code & Cadence
 author: Ove Lindström
 email: ove@codecadence.se
 description: >- # this means to ignore newlines until "baseurl:"
-  A little site containing thoughs about more or less everything.</br>
+  A little site containing thoughts about more or less everything.</br>
 
-  But mostly about Code and the Software craftmanship ... and mountainbiking.
+  But mostly about Code and the Software craftsmanship ... and mountainbiking.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.codecadence.se/"
 enforce_ssl: "https://blog.codecadence.se/"
@@ -48,6 +48,9 @@ plugins:
 
 minima:
   date_format: "%Y-%m-%d"
+
+# Allow future-dated posts to be published
+future: true
 
 # Theme Reverie
 permalink: /:year/:month/:day/:title/
