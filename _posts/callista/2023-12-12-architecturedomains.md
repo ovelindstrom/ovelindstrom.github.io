@@ -11,7 +11,7 @@ Evans införde konceptet "domändriven utveckling", där huvudsyftet var att ska
 I denna text utforskar jag behovsdomäner och hur de kan adresseras genom tre olika aspekter: operativ, taktisk och strategisk. Jag presenterar lite erfarenheter jag samlat på mig genom åren och som jag önskade att någon erfaren arkitekt hade förklarat för mig tidigare.
 
 
--[readmore]-
+
 
 ## Introduktion till domändriven arkitektur
 
@@ -33,7 +33,7 @@ Ett sätt att lösa de knutarna och komma framåt snabbare är att introducera a
 
 ## Operativ
 
-![Operativ domän med ikoner som visar olika delar av en verksamhet.]({{site.baseurl}}/assets/blogg/domain-needs/behovsdomain-operativ.png "Operativ domän")
+![Operativ domän med ikoner som visar olika delar av en verksamhet.]({{site.baseurl}}/images/callista/domain-needs/behovsdomain-operativ.png "Operativ domän")
 
 Den första, och den som de flesta är mest bekväma med att hantera, är den __Operativa__ behovsaspekten. I domänen ingår de delar av systemet som används dagligen. Här hittar man funktioner som har de högsta kraven på tillgänglighet och åtkomst. Nästan alltid handlar det idag om att ha en 24/7-tillgänglighet. Ofta uppstår störningar i verksamheten redan efter en kort tidsrymd om något system inte fungerar som det ska.
 
@@ -41,7 +41,7 @@ I ett exempel med en online-handel förväntar sig kunden att kunna gå in på s
 
 ## Taktiskt
 
-![Taktisk domän med ikoner som visar taktiska aspekter.](/assets/blogg/domain-needs/behovsdomain-taktisk.png "Taktisk domän")
+![Taktisk domän med ikoner som visar taktiska aspekter.](/images/callista/domain-needs/behovsdomain-taktisk.png "Taktisk domän")
 
 För att de operativa funktionerna ska fungera optimalt krävs att man även tittar på de __Taktiska__ aspekterna i domänmodellen. De här systemdelarna har oftast inte ett 24/7-behov utan är mer fokuserade på funktioner som behöver vara tillgängliga under kontorstid. Det kan finnas undantag, som t.ex. bedrägeridetektion.
 
@@ -55,7 +55,7 @@ I den taktiska aspekten ska mycket tid läggas på att analysera fram vilka hän
 
 ## Strategisk
 
-![Strategisk domän med ikoner som visar strategiska aspekter.](/assets/blogg/domain-needs/behovsdomain-strategisk.png "Strategisk domän")
+![Strategisk domän med ikoner som visar strategiska aspekter.](/images/callista/domain-needs/behovsdomain-strategisk.png "Strategisk domän")
 
 I den __Strategiska__ domänen hittar vi funktioner och systemstöd som är av långsiktig natur. Hur utvecklas vår verksamhet ekonomiskt? Hur ser de olika säsongerna ut? Hur kan vi jämföra oss med våra konkurrenter både nationellt och internationellt?
 
@@ -65,7 +65,7 @@ Den strategiska domänaspekten är också där vi hittar de funktioner som handl
 
 ## Livscykeln
 
-![Visar hur de olika domänerna hänger ihop med varandra](/assets/blogg/domain-needs/behovsdomain-lifecycle.png "Livscykeln")
+![Visar hur de olika domänerna hänger ihop med varandra](/images/callista/domain-needs/behovsdomain-lifecycle.png "Livscykeln")
 
 De olika aspekterna hänger ihop genom sina respektive verksamhetskontexter. Ur den Strategiska domänen kan man skapa modeller för att med insamlad data ge bättre beslut till både de Taktiska och de Operativa delarna. Idag finns det AI och ML-modeller att använda sig av för att förenkla analyserna, men den Strategiska domänen behöver driva vilka parametrar och vilken grunddata som ska användas i dessa modeller. Det är viktigt att ge experter inom respektive område, som t.ex. marknadsföring och logistik, möjlighet att skapa och använda expertmodeller. Speciellt viktiga är dessa som indata till taktiska analyserna.
 

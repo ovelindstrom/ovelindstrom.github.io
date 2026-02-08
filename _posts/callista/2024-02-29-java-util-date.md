@@ -13,7 +13,7 @@ Gör inte det.
 
 Varför? Det finns bättre sätt att hantera både kalenderdatum och tid i `java.time` paketet. Ta 10 minuter för att förstå vad klasserna i `java.time` kan göra för dig.
 
--[readmore]-
+
 
 Idag är det skottdagen 2024 så vad är lämpligare än att prata lite om datum och tid i vårt favoritspråk Java.
 
@@ -21,7 +21,7 @@ Vi firar snart 10-årsjubileum av att Java 8 släpptes och i den releasen hittar
 
 Ändå ser vi än idag exempel som använder `java.util.Date` och `java.util.Calendar`och vi får förslag från AI-verktyg som ska hjälpa oss att koda som ser ut såhär:
 
-![ai-java-util-date.png]({{site.baseurl}}/assets/blogg/ai-java-util-date.png)
+![ai-java-util-date.png]({{site.baseurl}}/images/callista/ai-java-util-date.png)
 
 Okej, vi kanske måste använda oss av `java.util.*` när vi använder gamla legacy-system eller bibliotek, men nu har de ändå haft 10 år på sig att ändra på sig.
 
@@ -172,7 +172,7 @@ I sitt grundutförande så används ISO-8601 kalender, eller det som kallades _G
 
 En `java.util.Date` representerar i paraktiken ett ögonblick på tidslinjen, i UTC, och som en kombination av tid på dagen och vilket datum. Det gör att vi kan konverterar det till ett antal olika typer i `java.time` beroende på vårt faktiska användningsfall.
 
-![java.time.png]({{site.baseurl}}/assets/blogg/java.time.png)
+![java.time.png]({{site.baseurl}}/images/callista/java.time.png)
 
 I Java 8 lade man till metoden `toInstant()` som gör att man kan konvertera en `java.util.Date` och `java.util.Calendar` till `java.time.Instant`. `java.sql.Date` kommer däremot att kasta ett exception om man anropar `toInstant()`. Det är för att `java.sql.Date` inte har någon tids-komponent. Det finns en metod `toLocalDate()` som kan användas istället. `java.sql.Timestamp` har däremot både `toInstant()` och `toLocalDateTime()`. Det blir lätt förvirrande.
 

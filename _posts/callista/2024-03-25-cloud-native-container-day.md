@@ -7,7 +7,7 @@ categories: callista
 
 Jag har varit på Cloud Native & Container Day. Här kommer en kort reflektion och takeaways från årets evenemang och lite om vad som är hett och vad som kommer.
 
--[readmore]-
+
 
 Den 6 mars, tillbringade jag en dag tillsammans med de ledande leverantörerna av kontainerteknik och teknik runt vårt favoritsätt att paketera applikationer och system numera.
 
@@ -41,7 +41,7 @@ Det vanligaste är att man då skapar ett projekt för att skapa en utvecklarpla
 
 Vad och när används dina kontainrar egentligen? Behöver de köras 24/7? Genom att använda sig av telemetri och skaffa sig insikt i vad som händer i systemet kan man konfigurera det så att systemet bara använder så mycket resurser som är nödvändigt. Stäng ner utvecklingsmiljöer nattetid, använd triggers för att starta administrativa system som bara används nu och då. Det sparar el och el är koldioxid och vi ska vara rädda om miljön.
 
-![cncd-climat.jpg]({{site.baseurl}}/assets/blogg/cncd-climat.jpg)
+![cncd-climat.jpg]({{site.baseurl}}/images/callista/cncd-climat.jpg)
 
 ## Säkerhet
 
@@ -53,7 +53,7 @@ Vi förväntar oss att kontainrar ska vara oförändringsbara och det är relati
 
 Lösningen är att hålla reda på att systemet är inom givna ramar och inte driver iväg.
 
-![tpms.jpg]({{site.baseurl}}/assets/blogg/tpms.jpg)
+![tpms.jpg]({{site.baseurl}}/images/callista/tpms.jpg)
 
 Och så behöver man sätta säkerhet tidigt i utvecklingsprocessen, alltså Shift Left.
 

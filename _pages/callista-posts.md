@@ -4,7 +4,9 @@ title: Callista Enterprise Posts
 permalink: /callista-posts/
 ---
 
-These blog posts were originally written and published on the [Callista Enterprise Blog](https://callistaenterprise.se/blogg/) during my time working at Callista Enterprise AB. They are cross-posted here with attribution to the original source.
+These blog posts were originally written and published on the [Callista Enterprise Blog](https://callistaenterprise.se/blogg/) during my time working at there. They are cross-posted here with attribution to the original source.
+
+**Copyright Notice:** I retain copyright (upphovsrätt) to these works under Swedish law. Callista Enterprise AB has been granted and retained the right to use and publish these materials on their blog in accordance with the employee agreement.
 
 ---
 
@@ -30,7 +32,6 @@ These blog posts were originally written and published on the [Callista Enterpri
 - [Cloud Native & Container Day 2024]({% post_url callista/2024-03-25-cloud-native-container-day %}) - *March 25, 2024*
 - [Sagan om två datum]({% post_url callista/2024-02-29-java-util-date %}) - *February 29, 2024*
 - [Jfokus 2024]({% post_url callista/2024-02-19-jfokus-2024 %}) - *February 19, 2024*
-- [Testing Camel Routes]({% post_url callista/2024-01-20-testing-camel-routes %}) - *January 20, 2024*
 
 ## 2023
 

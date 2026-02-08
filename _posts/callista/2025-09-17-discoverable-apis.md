@@ -7,7 +7,7 @@ categories: callista
 
 In my previous blog post [Good habits when designing REST APIs](/blogg/teknik/2025/09/03/bad-rest/), I sort of ended with a little cliffhanger that there are more things that could be done to make life easier for your fellow developers. Today, we are diving into **The Discovery of REST APIs** and the magical use of HAL and HATEOAS.
 
--[readmore]-
+
 
 If you are lucky, you get to work with APIs that have excellent documentation. I have a list of favorites when it comes to how to document APIs that I turn to for inspiration. Two of them are [Shutterstock](https://api-reference.shutterstock.com/) and [GitHub](https://docs.github.com/en/rest/quickstart) that both have very good resource and domain-focused APIs. They have in common that they act on well-known domains and have an established vocabulary that is used. If you are familiar with the domains, you have no problem navigating the structures.
 
@@ -15,7 +15,7 @@ Other domains are more difficult. The one that stands out is payment providers. 
 
 What all good REST APIs have in common is that they are *discoverable* by nature. That means that if you know the base of the resource or action you want to use, you can more or less follow the links provided by the first GET to achieve what you want to do.
 
-![Discovery of REST APIs](/assets/blogg/discovery-of-rest.png)
+![Discovery of REST APIs](/images/callista/discovery-of-rest.png)
 
 ## HATEOAS and HAL
 

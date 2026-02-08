@@ -11,7 +11,7 @@ In his PhD dissertation ["Architectural Styles and the Design of Network-based S
 
 Do I agree with this statement? Is the REST history? Or is it just misunderstood and misused?
 
--[readmore]-
+
 
 I am, and have always been, a big fan of Roy Fielding and the mentioned dissertation paper. I think that the link above is one of my most used as a reference when it comes to architecture discussions over the last 15 years or so.
 

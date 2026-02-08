@@ -8,7 +8,7 @@ Java 25 was released in September 2025 but the rampdown phase for Java 26 has al
 
 But how much can actually happen in 6 months? Let me tell you.
 
--[readmore]-
+
 
 The final JEP list has been frozen and on top of the planned bug fixes, it contains 10 feature JEPs. I've looked through them and summarized what impact I think they will have.
 

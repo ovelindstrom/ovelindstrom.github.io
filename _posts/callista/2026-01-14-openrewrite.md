@@ -6,7 +6,7 @@ categories: callista
 ---
 During the fall, I worked for a Swedish government organisation that has a large legacy codebase. This is a summary of the findings and ways of working that emerged during the project.
 
--[readmore]-
+
 
 
 ## The legacy challenge

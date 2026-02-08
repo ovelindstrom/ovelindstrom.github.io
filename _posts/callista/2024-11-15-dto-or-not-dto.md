@@ -6,7 +6,7 @@ categories: callista
 ---
 In this blog we dive into the concept of Data Transfer Objects (DTOs), providing a detailed explanation of their use, design best practices, and how they relate to other object patterns like Value Objects (VO), Domain Objects (DO), and Business Objects (BO). You will gain the understanding that the key to effective use of DTOs lies in their purpose: transferring data efficiently while keeping domain logic separate and testable.
 
--[readmore]-
+
 
 It all started with a code review. A developer had added a method in a class that created a hard dependency between several other domain classes and value objects and then exposed everything
 to the Web UI.

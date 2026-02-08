@@ -10,7 +10,7 @@ Från traditionella metoder för att samla och lagra data till moderna arkitektu
 
 Och jag reflekterar över den övergripande frågan - är det värt att övergå till strömmad data? Det beror på...
 
--[readmore]-
+
 
 > "Jaha, du jobbar med data!" - _Min mormor_
 
@@ -55,7 +55,7 @@ En lösning på detta kan vara att så lång som möjligt pseudonymisera framfö
 
 ## Data i rörelse
 
-![datainmotion1.png]({{site.baseurl}}/assets/datainmotion1.png)
+![datainmotion1.png]({{site.baseurl}}/images/callista/datainmotion1.png)
 
 Om vi kommer tillbaka till mjölken. Givetvis kan alla dessa dataproducenter skapa och spara sin data i sina egna databaser och sedan, vid ett givet tillfälle, göra stora och batchbaserade analyser och transformationer av dessa. Men vill vi som äter kanelbullar med mjölk att den mikrobiologiska analysens resultat kommer efter att vi har druckit upp mjölken?
 
@@ -87,7 +87,7 @@ Om vi går tillbaka till exemplet med Splunk kan det innebära att vi från vår
 
 ## Sammanfattning
 
-![dim_groundcontrol1.png]({{site.baseurl}}/assets/dim_groundcontrol1.png)
+![dim_groundcontrol1.png]({{site.baseurl}}/images/callista/dim_groundcontrol1.png)
 
 Dataströmmar är inte ett race, det är en resa. Det är inte alltid viktigast att komma fram fort, utan att komma fram säkert.
 

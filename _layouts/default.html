@@ -36,6 +36,7 @@
             <a href="{{ site.baseurl }}/search">Search</a>
             <a href="{{ site.baseurl }}/about">About</a>
             <a href="{{ site.baseurl }}/archive">Archive</a>
+            <a href="{{ site.baseurl }}/callista-posts">Callista Posts</a>
           </nav>
         </header>
       </div>
@@ -51,6 +52,9 @@
       <div class="container">
         <footer class="footer">
           {% include svg-icons.html %}
+          <div class="footer-license" style="margin-top: 20px; font-size: 0.9em; text-align: center;">
+            <p>Content licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a> © {{ site.time | date: '%Y' }} {{ site.author }}</p>
+          </div>
         </footer>
       </div>
     </div>

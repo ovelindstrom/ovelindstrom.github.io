@@ -10,7 +10,7 @@ But what happens when your dependencies in your application freeze over? And wha
 
 ![Hells gods station](https://upload.wikimedia.org/wikipedia/commons/a/a8/Hell_norway_sign.jpg)
 
--[readmore]-
+
 
 ## Introduction
 
