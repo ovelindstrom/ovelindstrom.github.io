@@ -16,18 +16,19 @@ default-src 'self'
 Only allow resources from the same origin by default.
 
 ```
-script-src 'self' 'unsafe-inline' https://www.clarity.ms https://*.disqus.com https://*.disquscdn.com
+script-src 'self' 'unsafe-inline' https://www.clarity.ms https://scripts.clarity.ms https://*.clarity.ms https://*.disqus.com https://*.disquscdn.com
 ```
 - `'self'`: Allow scripts from same origin (simple-jekyll-search.min.js)
 - `'unsafe-inline'`: Required for inline scripts (cookie consent, search functionality, analytics initialization)
-- `https://www.clarity.ms`: Microsoft Clarity analytics
+- `https://www.clarity.ms`, `https://scripts.clarity.ms`, `https://*.clarity.ms`: Microsoft Clarity analytics
 - `https://*.disqus.com` and `https://*.disquscdn.com`: Disqus comments (if enabled)
 
 ```
-style-src 'self' 'unsafe-inline'
+style-src 'self' 'unsafe-inline' https://fonts.googleapis.com
 ```
 - `'self'`: Allow stylesheets from same origin
 - `'unsafe-inline'`: Required for inline styles in cookie consent and other components
+- `https://fonts.googleapis.com`: Google Fonts stylesheet
 
 ```
 img-src 'self' data: https: http:
@@ -35,9 +36,9 @@ img-src 'self' data: https: http:
 Allow images from same origin, data URIs, and external HTTPS/HTTP sources (for blog post images, avatars, etc.)
 
 ```
-font-src 'self' data:
+font-src 'self' data: https://fonts.gstatic.com
 ```
-Allow fonts from same origin and data URIs.
+Allow fonts from same origin, data URIs, and Google Fonts CDN.
 
 ```
 connect-src 'self' https://www.clarity.ms https://*.clarity.ms https://*.disqus.com
@@ -65,14 +66,11 @@ form-action 'self'
 Forms can only submit to same origin.
 
 ```
-frame-ancestors 'none'
-```
-Prevent site from being embedded in iframes (clickjacking protection).
-
-```
 upgrade-insecure-requests
 ```
 Automatically upgrade HTTP requests to HTTPS.
+
+**Note:** The `frame-ancestors` directive is not supported in `<meta>` CSP tags, only in HTTP headers. For meta-based CSP, this directive is ignored.
 
 ## Improving Security
 
