@@ -31,9 +31,12 @@ style-src 'self' 'unsafe-inline' https://fonts.googleapis.com
 - `https://fonts.googleapis.com`: Google Fonts stylesheet
 
 ```
-img-src 'self' data: https: http:
+img-src 'self' data: https://www.jfokus.se
 ```
-Allow images from same origin, data URIs, and external HTTPS/HTTP sources (for blog post images, avatars, etc.)
+Allow images from:
+- `'self'`: Same origin (blog post images, avatars, logos)
+- `data:`: Data URIs for inline images
+- `https://www.jfokus.se`: JFocus conference speaker images
 
 ```
 font-src 'self' data: https://fonts.gstatic.com
