@@ -18,10 +18,10 @@ Only allow resources from the same origin by default.
 ```
 script-src 'self' 'unsafe-inline' https://www.clarity.ms https://scripts.clarity.ms https://*.clarity.ms https://*.disqus.com https://*.disquscdn.com
 ```
-- `'self'`: Allow scripts from same origin (simple-jekyll-search.min.js)
-- `'unsafe-inline'`: Required for inline scripts (cookie consent, search functionality, analytics initialization)
+- `'self'`: Allow scripts from same origin (simple-jekyll-search.min.js, cookie-consent.js, search-init.js)
 - `https://www.clarity.ms`, `https://scripts.clarity.ms`, `https://*.clarity.ms`: Microsoft Clarity analytics
 - `https://*.disqus.com` and `https://*.disquscdn.com`: Disqus comments (if enabled)
+- **No `'unsafe-inline'`**: All inline scripts have been refactored into external files for maximum XSS protection
 
 ```
 style-src 'self' 'unsafe-inline' https://fonts.googleapis.com
@@ -72,32 +72,33 @@ Automatically upgrade HTTP requests to HTTPS.
 
 **Note:** The `frame-ancestors` directive is not supported in `<meta>` CSP tags, only in HTTP headers. For meta-based CSP, this directive is ignored.
 
-## Improving Security
+## Eliminating Inline Scripts (XSS Protection)
 
-The current policy uses `'unsafe-inline'` for both scripts and styles. To improve security, consider:
+To maximize XSS protection, all inline JavaScript has been refactored into external files:
 
-### Option 1: Remove Inline Scripts
-Move all inline JavaScript to external files with proper event listeners.
+### Refactored Scripts
 
-### Option 2: Use Nonces or Hashes
-Generate unique nonces for each page request or use SHA hashes of inline script content:
-```html
-<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'nonce-{random}' https://www.clarity.ms">
-<script nonce="{random}">...</script>
-```
+| Inline Script | External File | Location |
+|---|---|---|
+| Cookie consent handler | `assets/cookie-consent.js` | Loaded by `_includes/cookie-consent.html` |
+| Search initialization | `assets/search-init.js` | Loaded by `_pages/search.md` |
 
-Note: Nonces require server-side generation, which is limited on GitHub Pages.
+### Benefits of External Scripts
 
-### Option 3: Use Hash-based CSP
-Calculate SHA-256 hashes of inline scripts:
-```bash
-echo -n "your-script-content" | openssl dgst -sha256 -binary | openssl base64
-```
+- **Blocks inline script injections**: Attackers cannot inject inline `<script>` tags to execute malicious code
+- **Maintains CSP without `'unsafe-inline'`**: All scripts follow proper CSP directives
+- **Uses DOMContentLoaded event**: Scripts initialize safely after DOM is ready
+- **High ROI security improvement**: Eliminates an entire class of XSS attacks
 
-Then reference in CSP:
-```
-script-src 'self' 'sha256-{hash}' https://www.clarity.ms
-```
+### Implementation Details
+
+- Scripts use `document.addEventListener('DOMContentLoaded', ...)` to initialize after the page loads
+- Event listeners are attached using `.addEventListener()` instead of inline `onclick` attributes
+- All script-src directives now point to whitelisted external origins only
+
+## Styling: Still Uses 'unsafe-inline'
+
+Note: `style-src` still includes `'unsafe-inline'` for the cookie consent banner styling. CSS injection attacks are significantly less common than JavaScript injection, but this could be further hardened using external stylesheets or CSS-in-JS solutions.
 
 ## Testing CSP
 1. Open browser Developer Tools (F12)
@@ -110,9 +111,10 @@ script-src 'self' 'sha256-{hash}' https://www.clarity.ms
 - Consider using CSP reporting (`report-uri` or `report-to` directives) to collect violation reports
 
 ## Maintenance
-When adding new external services or inline scripts, update `_includes/csp.html` accordingly.
+When adding new external services, update `_includes/csp.html` accordingly. Avoid adding inline scripts; create external files instead.
 
 ## References
 - [MDN Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
 - [CSP Evaluator](https://csp-evaluator.withgoogle.com/)
+- [OWASP: Content Security Policy](https://owasp.org/www-community/attacks/xss/)
 - [GitHub Pages CSP Limitations](https://github.blog/2013-04-24-heads-up-nosniff-header-support-coming-to-chrome-and-firefox/)
