@@ -83,6 +83,7 @@ To maximize XSS protection, all inline JavaScript has been refactored into exter
 
 | Inline Script | External File | Location |
 |---|---|---|
+| Clarity analytics initialization | `assets/clarity-init.js` | Loaded by `_includes/analytics_head.html` |
 | Cookie consent handler | `assets/cookie-consent.js` | Loaded by `_includes/cookie-consent.html` |
 | Search initialization | `assets/search-init.js` | Loaded by `_pages/search.md` |
 
