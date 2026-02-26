@@ -5,7 +5,7 @@ date: 2026-02-26 10:00:00 +0200
 categories: english
 ---
 
-In my previous post, I published [Feedback or Not?]({% post_url en/2026-02-24-feedback-the-game %}), a little gamification of a workshop-part on how to recognize and classify different types of feedback. Where I work now, we have a book club and we read Chapter 2 of "No Rules Rules" this week. It is the one named **SAY WHAT YOU REALLY THINK (WITH POSITIVE INTENT)** [1] and introduces the concept of Candor. But recognizing what something _is_ is only the first step. The real power comes from learning how to _label it tactically_.
+In my previous post, I published [Feedback or Not?]({% post_url en/2026-02-24-feedback-the-game %}), a little gamification of a workshop-part on how to recognize and classify different types of feedback. Where I work now, we have a book club and we read Chapter 2 of "No Rules Rules" this week. It is the one named **SAY WHAT YOU REALLY THINK (WITH POSITIVE INTENT)** [1](#ref-1) and introduces the concept of Candor. But recognizing what something _is_ is only the first step. The real power comes from learning how to _label it tactically_.
 
 Once you understand that a comment is **Criticism** rather than **Coaching** or **Advice** rather than genuine **Appreciation**, you gain something crucial: the ability to respond strategically. Tactical labeling isn't about being pedantic or playing word games. It is about precision.
 
@@ -79,4 +79,4 @@ Thank you Book Club. It seems like the best feedback comes from people who care 
 
 ## References
 
-[1] Hastings, Reed, and Erin Meyer. *No Rules Rules: Netflix and the Culture of Reinvention*. Penguin Press, 2020. ISBN: 978-1492230107.
+<a id="ref-1">[1]</a> Hastings, Reed, and Erin Meyer. *No Rules Rules: Netflix and the Culture of Reinvention*. Penguin Press, 2020. ISBN: 978-1492230107.
