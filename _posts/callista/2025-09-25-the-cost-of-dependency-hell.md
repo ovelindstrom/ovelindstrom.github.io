@@ -8,9 +8,7 @@ There is a place in Norway named Hell. It is a small community of fewer than 2,0
 
 But what happens when your dependencies in your application freeze over? And what is the cost of not having a Dependency Management Strategy?
 
-![Hells gods station](https://upload.wikimedia.org/wikipedia/commons/a/a8/Hell_norway_sign.jpg)
-
-
+![Hells gods station]({{site.baseurl}}/images/callista/Hell_norway_sign.jpg)
 
 ## Introduction
 
