@@ -5,7 +5,7 @@ date: 2026-03-20 10:00:00 +0200
 categories: english
 ---
 
-> Want the tighter cut? Read the Hemingway-style version: [The confession of an AI herder - Hemingway Style]({% post_url en/2026-03-20-ai-prallels-hemingway %}).
+> Want the tighter cut? Read the Hemingway-style version: [The confession of an AI herder - Hemingway Style]({% post_url en/2026-03-20-ai-parallels-hemingway %}).
 
 
 ## History of AI and Agents
