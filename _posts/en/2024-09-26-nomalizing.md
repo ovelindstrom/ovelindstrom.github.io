@@ -4,7 +4,6 @@ title:  "Normalicy bias!"
 date:   2024-09-26 14:30:00 +0200
 categories: english
 ---
-
 Normalicy bias, or normality bias, depending on where in the world you speak english, is the congnitive bias that leads people to minimize warnings, threats or issues. We tend to prepare inadequately for failiure, like storms, stock market crashes or bicycle drivetrain wear.
 
 I mean, the gearshifting on my commuter bike, knows as Snow White, wasn't that bad. It shifted, most of the time. I just needed to use a bit more force.

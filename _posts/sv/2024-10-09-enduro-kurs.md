@@ -4,7 +4,6 @@ title:  "Endurokurs med Mountainbike-skolan"
 date:   2024-10-09 10:00:00 +0200
 categories: svenska mtb
 ---
-
 ## Om konsten att trilla nerför ett berg
 
 I helgen som var gick jag på kurs. Ja, alltså, jag hade anmält mig till en kurs men det blev snarare en heldag med personlig coaching eftersom vi bara var två deltagare. Så det var jag och Seb som deltagare och [Zacharias](https://mountainbikeskolan.se/om-oss/racing-team/) som coach för dagen.

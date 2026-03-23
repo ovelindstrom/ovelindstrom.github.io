@@ -2,9 +2,8 @@
 layout: post
 title:  "Impacts of Java 25 - what will they learn?"
 date: 2025-09-19 08:00:00 +0200
-categories: english
+categories: english code java sh
 ---
-
 A couple of days ago, [Java 25](https://openjdk.org/projects/jdk/25/) reached General Availability and all the big vendors officially released their JDK 25 versions.
 
 Much of the news has been around since Java 22, and I have been following some of the JEPs. There are some pretty cool changes in what we can do with the language, and four of them are about getting new developers started faster and getting rid of a lot of boilerplate code.

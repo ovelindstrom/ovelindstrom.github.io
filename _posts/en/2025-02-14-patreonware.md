@@ -4,7 +4,6 @@ title:  "Patreonware"
 date:   2025-02-14 10:00:00 +0200
 categories: english
 ---
-
 ## Happy Valentines Day!
 
 ![ChatGPT generated Splash image for PatreonWare](/images/posts/patreonware.webp){:width="50%"}

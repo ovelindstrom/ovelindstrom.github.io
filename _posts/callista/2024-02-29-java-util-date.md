@@ -2,7 +2,7 @@
 layout: post
 title: Sagan om två datum
 date: 2024-02-29
-categories: callista
+categories: callista code java
 ---
 > It was the best of `java.time.Date`, it was the worst of `java.utl.Date`.  
 > - not Charles Dickens

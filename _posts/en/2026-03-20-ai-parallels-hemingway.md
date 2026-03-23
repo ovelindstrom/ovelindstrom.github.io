@@ -4,8 +4,6 @@ title: "The confession of an AI herder - Hemingway Style"
 date: 2026-03-20 10:00:00 +0200
 categories: english
 ---
-
-
 > Read the original version: [The confession of an AI herder]({% post_url en/2026-03-20-ai-parallels %}).
 
 

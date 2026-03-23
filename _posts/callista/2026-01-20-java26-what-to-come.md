@@ -2,7 +2,7 @@
 layout: post
 title: What about Java 26
 date: 2026-01-20
-categories: callista
+categories: callista code java
 ---
 Java 25 was released in September 2025 but the rampdown phase for Java 26 has already begun and it will be generally available in the middle of March 2026.
 

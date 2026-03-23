@@ -4,7 +4,6 @@ title:  "Two Cookies Crisis Management Process"
 date:   2024-11-26 10:30:00 +0200
 categories: english
 ---
-
 ![ChatGPT generated Splash image for Two Cookies](/images/posts/two-cookie-crisis-management.webp){:width="50%"}
 
 There comes a time in every developers life when the shit hits the fan, when production servers stops responding, when managers comes screaming about the next [Log4Shell](https://en.wikipedia.org/wiki/Log4Shell) vulnerability or just another Thursday when things seems to go wrong. Then you need to have your toolkit to manage this kind of situations ready.

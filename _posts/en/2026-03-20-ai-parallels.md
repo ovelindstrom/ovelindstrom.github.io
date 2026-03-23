@@ -4,7 +4,6 @@ title: "The confession of an AI herder"
 date: 2026-03-20 10:00:00 +0200
 categories: english
 ---
-
 What happens when you keep a herd of agents when you write?
 
 <!--more-->

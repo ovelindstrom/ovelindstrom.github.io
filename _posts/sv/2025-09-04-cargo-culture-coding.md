@@ -2,10 +2,8 @@
 layout: post
 title:  "Cargo Cult Coding"
 date:   2025-09-04 10:00:00 +0200
-categories: svenska 
+categories: svenska
 ---
-
-
 **Cargo Cult Coding: När vi kopierar ritualer istället för att förstå värde**
 
 Den här bloggen baserar sig på en presentation jag gjorde på en internkonferens idag, fast ingen bett mig om det. ;)

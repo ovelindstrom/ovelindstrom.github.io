@@ -2,9 +2,8 @@
 layout: post
 title:  "Backmans böcker"
 date:   2025-11-28 10:00:00 +0200
-categories: svenska 
+categories: svenska
 ---
-
 Det var en stund sedan jag skrev något här men nu är hjärnan full med saker som måste ut.
 
 För en tid sedan postade Fredrik Backman på sin Facebook-sida att han skulle göra ett framträdande på Rival där han skulle tillåta Josefine Sundström att leda honom i ett samtal. Och vi skulle få titta på.

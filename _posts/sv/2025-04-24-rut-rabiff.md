@@ -2,9 +2,8 @@
 layout: post
 title:  "Men snälla Rut Råbiff!!"
 date:   2025-04-24 10:00:00 +0200
-categories: svenska 
+categories: svenska humor
 ---
-
 __Scen:__
 <i>
 Det är en solig vårdag, sent i april och även om solen lyser och alla träd kräker ur sig pollen i mängder så är det lite kallt. Vår hjälte ifrån [A bold statement about password security]({% post_url en/2024-12-09-secure-passwords %}), Dan, är på väg till jobbet på det lilla produktbolaget där han är systemarkitekt. Idag är det en stor dag, han ska presentera lösningsförlaget för den nya SuperWidget"-plattformen för produktledningen.

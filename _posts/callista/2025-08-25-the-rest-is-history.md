@@ -2,9 +2,8 @@
 layout: post
 title: and the REST is history
 date: 2025-08-25
-categories: callista
+categories: callista code json graphql
 ---
-
 In his PhD dissertation ["Architectural Styles and the Design of Network-based Software Architectures"](https://ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm), Roy Fielding defined the REST architecture style. 
 
 > "This has made a lot of people very angry and been widely regarded as a bad move". - _The Hitchhiker's Guide to the Galaxy, Douglas Adams_

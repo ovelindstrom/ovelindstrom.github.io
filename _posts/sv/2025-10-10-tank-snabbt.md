@@ -2,9 +2,8 @@
 layout: post
 title:  "Tänk snabbt!"
 date:   2025-10-10-04 10:00:00 +0200
-categories: svenska 
+categories: svenska mtb
 ---
-
 ## Prolog: Over The Bar
 
 Jag är mitt i ett skriv-flyt och det bara sprutar bokstäver över skärmen. Noise cancelling-lurarna är på plats och spelar någon form av trash metal. Jag har ett stort leende och känslan i kroppen är samma som när jag lyfter riktigt tungt på gymmet eller har det där fantastiska flytet ute i Hellasskogarna. Men just nu sitter jag helt stilla och det enda som rör sig är tankarna inne i min hjärna och fingrarna över tangenterna.

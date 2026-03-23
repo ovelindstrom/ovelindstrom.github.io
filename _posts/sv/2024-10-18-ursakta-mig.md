@@ -4,7 +4,6 @@ title:  "Ursäkta, får jag störa dig?"
 date:   2024-10-09 10:00:00 +0200
 categories: svenska code-craft
 ---
-
 > Tänk om du skulle ringa upp någon, säga Hej!, och sedan lägga på...
 
 Ändå är det ett fullt accepterat beteende om det handlar om textbaserad kommunikation.

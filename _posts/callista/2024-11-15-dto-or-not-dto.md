@@ -2,7 +2,7 @@
 layout: post
 title: DTO or not DTO?
 date: 2024-11-15
-categories: callista
+categories: callista code java
 ---
 In this blog we dive into the concept of Data Transfer Objects (DTOs), providing a detailed explanation of their use, design best practices, and how they relate to other object patterns like Value Objects (VO), Domain Objects (DO), and Business Objects (BO). You will gain the understanding that the key to effective use of DTOs lies in their purpose: transferring data efficiently while keeping domain logic separate and testable.
 

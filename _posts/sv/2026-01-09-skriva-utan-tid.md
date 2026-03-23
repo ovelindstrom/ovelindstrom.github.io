@@ -2,9 +2,8 @@
 layout: post
 title:  "Att skriva när man egentligen är upptagen"
 date:   2026-01-09 10:00:00 +0200
-categories: svenska 
+categories: svenska mtb
 ---
-
 *Eller: Hur du kan sluta **tänka** på att skriva och bara... skriva.*
 
 Så, där satt vi på månadsmötet och punkten marknadsinformation kommer upp, med den vanliga uppmaningen **vi borde verkligen publicera fler bloggar**. Jag hör den tysta sucken från mina kollegor. Jag ser tankebubblan "Jo, jag skulle verkligen vilja skriva om de där sakerna som vi höll på med förra månaden, men jag har inte tiiiiiid" ovanför deras huvuden.

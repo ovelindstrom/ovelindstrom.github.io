@@ -2,9 +2,8 @@
 layout: post
 title: Hur många har koll på Javas @Contended annotation?
 date: 2026-01-27 08:00:00 +0200
-categories: svenska java
+categories: svenska java code
 ---
-
 Hur många har koll på Javas @Contended annotation?
 
 Jag satt igår och rättade ett fel i OpenRewrite och stötte på just den annotationen som jag aldrig sett förut och var tvungen att forska lite. Intressant liten sak vars fulla namn är `jdk.internal.vm.annotation.Contended`.

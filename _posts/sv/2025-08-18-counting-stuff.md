@@ -2,9 +2,8 @@
 layout: post
 title:  "Om att räkna passagerare in en buss"
 date:   2025-08-18 10:00:00 +0200
-categories: svenska 
+categories: svenska code sql javascript
 ---
-
 Observabilitet är inte lätt att förstå sig på. Ganska ofta när jag diskuterar med både produktledning och utvecklare så finns det ett motstånd till att göra observerbara strukturer till en första klassens objekt. Nästan alltid när frågan kommer upp om statistik eller metrik så handlar det om att på något sätt använda databaser och dess information till att derivera fram den information man frågar efter. Det är speciellt vanligt inom brancher där lagkrav och regelverk hur och vilken information som ska lagras. Många har tyvärr föreställningen att man inte får utöka de definierade datamodellerna med vad man behöver i verksamheten. Baserat på ett par olika uppdrag över de senaste 10 åren har jag skapat ett lite exempel. Jag har ändrat namnen på tabellerna och entiteterna samt använd en helt annan domän för att skydda eventuella inblandade utvecklare men i stort sett är det taget från verkligheten.
 
 ## Problem 1: Ruttplanering

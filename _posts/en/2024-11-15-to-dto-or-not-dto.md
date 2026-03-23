@@ -2,7 +2,7 @@
 layout: post
 title:  "DTO or not DTO?"
 date:   2024-11-15 10:00:00 +0200
-categories: english
+categories: english code java
 ---
 It all started with a code review. A developer had added a method in a class that created a hard dependency between several other domain classes and value objects and then exposed everything
 to the Web UI.

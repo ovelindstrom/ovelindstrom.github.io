@@ -2,7 +2,7 @@
 layout: post
 title: The cost of ignoring dependencies
 date: 2025-09-25
-categories: callista
+categories: callista code sh
 ---
 There is a place in Norway named Hell. It is a small community of fewer than 2,000 people, and everyone knows each other. And everyone depends on each other.
 
