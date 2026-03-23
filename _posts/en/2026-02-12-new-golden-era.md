@@ -2,7 +2,7 @@
 layout: post
 title: "The Third Golden Age"
 date: 2026-02-12 10:00:00 +0200
-categories: english
+categories: english ai industry-trends
 ---
 > "Software is eating the world, but AI is going to eat software." — Jensen Huang, CEO of NVIDIA (2017/2024)
 

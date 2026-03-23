@@ -2,7 +2,7 @@
 layout: post
 title:  "En liten guide för hur man hanterar besvärliga programmerare"
 date:   2025-07-10 10:00:00 +0200
-categories: svenska
+categories: svenska humor ledarskap team
 ---
 Vi hamnade i en diskussion, ett gäng gamla uvar till programmerare som alla har det gemensamt att vi inte längre kan kalla oss programmerare egentligen. Några har lyckats få in ett C i sin titel, en del är Engineering Managers och de som har haft extra mycket otur, som jag, är systemarkitekter. Men vi har också det gemensamt att vi har varit (och kanske till viss del är) BesvärligaProgrammerare&trade;.
 

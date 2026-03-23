@@ -2,7 +2,7 @@
 layout: post
 title: Arkitekturella behovsdomäner
 date: 2023-12-12
-categories: callista
+categories: callista architecture ddd
 ---
 Hösten 2003 kom Eric Evans bok om Domain-Driven Design ut för första gången. Den ansågs som banbrytande och var en ögonöppnare för många inom mjukvaruutveckling. Den jämfördes med Martin Fowlers böcker om designmönster men det fanns en avgörande skillnad. 
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Two Cookies Crisis Management Process"
 date:   2024-11-26 10:30:00 +0200
-categories: english
+categories: english incident-management operations
 ---
 ![ChatGPT generated Splash image for Two Cookies](/images/posts/two-cookie-crisis-management.webp){:width="50%"}
 

@@ -2,7 +2,7 @@
 layout: post
 title: Data i rörelse
 date: 2023-11-16
-categories: callista
+categories: callista event-driven integration
 ---
 För en tid sedan höll Confluent en dag med temat "Data in Motion".  I denna utforskande text sammafattar jag mina intryck av dagen och ger min syn på den ständigt växande världen av datahantering inom IT-branschen. 
 

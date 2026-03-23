@@ -2,7 +2,7 @@
 layout: post
 title:  "Kotlin is Java - not"
 date:   2025-01-13 10:00:00 +0200
-categories: english code kotlin java
+categories: english code java kotlin
 ---
 It all started with a little discussion amongst the developers: what language to use for a new project. The statement, *"If you know the Java language, you can program in Kotlin!"* was thrown out by one of the developers advocating for Kotlin. As someone fluent in both Java and Kotlin, I switch between them seamlessly depending on the programming task at hand.
 

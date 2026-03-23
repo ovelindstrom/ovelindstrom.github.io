@@ -2,7 +2,7 @@
 layout: post
 title:  "Wasting our time - Thoughts about technical debt"
 date: 2025-08-18 08:00:00 +0200
-categories: english
+categories: english technical-debt
 ---
 I think it was Ward Cunningham who described how a system grows in complexity as it grows in capability. As systems grow, they inevitably create [cruft](https://en.wikipedia.org/wiki/Cruft), so there is no way to keep an evolving system "clean." Since our understanding of a system evolves with its design, our definition of "clean" changes as the system improves or when another piece is introduced.
 

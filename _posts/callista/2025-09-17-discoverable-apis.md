@@ -2,7 +2,7 @@
 layout: post
 title: The Discovery of REST APIs
 date: 2025-09-17
-categories: callista code json java
+categories: callista code java json
 ---
 In my previous blog post [Good habits when designing REST APIs](/blogg/teknik/2025/09/03/bad-rest/), I sort of ended with a little cliffhanger that there are more things that could be done to make life easier for your fellow developers. Today, we are diving into **The Discovery of REST APIs** and the magical use of HAL and HATEOAS.
 

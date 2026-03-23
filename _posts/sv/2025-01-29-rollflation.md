@@ -2,7 +2,7 @@
 layout: post
 title:  "Arkitekt på utvecklarbudget"
 date:   2025-01-29 15:00:00 +0200
-categories: svenska ledarskap konsultrollen
+categories: svenska konsultrollen ledarskap
 ---
 Det har varit mycket prat om krympflation det senaste året. Många var upprörda när Marabou gjorde om sina 200 g chokladkakor till 185 g och samtidigt höjde priserna. GB-glass kunde inte vara sämre, utan en Nogger är idag mindre än den var när vi var unga. Det handlar inte bara om att vi fått större händer. Och Bregott ska vi inte ens prata högt om. Krympa förpackningarna till 500 g. Då tar ju smöret slut fortare!
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Effective days"
 date:   2025-03-26 10:00:00 +0200
-categories: english
+categories: english productivity
 ---
 From time to time, people I work with or in other ways interact with asks me "how do you get so many things done and how can you manage to read and take in all the stuff you learn"?
 

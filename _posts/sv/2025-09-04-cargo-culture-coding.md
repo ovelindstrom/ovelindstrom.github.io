@@ -2,7 +2,7 @@
 layout: post
 title:  "Cargo Cult Coding"
 date:   2025-09-04 10:00:00 +0200
-categories: svenska
+categories: svenska code-craft engineering-culture
 ---
 **Cargo Cult Coding: När vi kopierar ritualer istället för att förstå värde**
 

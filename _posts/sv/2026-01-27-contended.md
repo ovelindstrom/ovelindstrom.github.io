@@ -2,7 +2,7 @@
 layout: post
 title: Hur många har koll på Javas @Contended annotation?
 date: 2026-01-27 08:00:00 +0200
-categories: svenska java code
+categories: svenska code java
 ---
 Hur många har koll på Javas @Contended annotation?
 

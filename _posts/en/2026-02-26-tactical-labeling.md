@@ -2,7 +2,7 @@
 layout: post
 title: "Is Tactical Labeling Passive Aggressive?"
 date: 2026-02-26 10:00:00 +0200
-categories: english
+categories: english communication feedback leadership
 ---
 In my previous post, I published [Feedback or Not?]({% post_url en/2026-02-24-feedback-the-game %}), a little gamification of a workshop-part on how to recognize and classify different types of feedback. Where I work now, we have a book club and we read Chapter 2 of "No Rules Rules" this week. It is the one named **SAY WHAT YOU REALLY THINK (WITH POSITIVE INTENT)** [1](#ref-1) and introduces the concept of Candor. But recognizing what something _is_ is only the first step. The real power comes from learning how to _label it tactically_.
 

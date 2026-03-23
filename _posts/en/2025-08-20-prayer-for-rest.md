@@ -2,7 +2,7 @@
 layout: post
 title:  "A prayer for REST"
 date: 2025-08-20 08:00:00 +0200
-categories: english
+categories: english api-design poem rest
 ---
 <div class="poem">
 As I lay my head to REST,

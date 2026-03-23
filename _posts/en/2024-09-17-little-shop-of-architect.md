@@ -2,7 +2,7 @@
 layout: post
 title:  "Architect of Doom!"
 date:   2024-09-17 09:20:00 +0200
-categories: english
+categories: english humor poetry
 ---
 Insprired by [The Dentist Song](https://www.youtube.com/watch?v=bOtMizMQ6oM) from _Little Shop of Horror._
 

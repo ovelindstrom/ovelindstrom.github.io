@@ -1,5 +1,5 @@
 ---
-categories: svenska
+categories: svenska svenska-index
 ---
 # Sidor på svenska
 

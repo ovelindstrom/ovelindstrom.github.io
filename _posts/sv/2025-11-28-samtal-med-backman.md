@@ -2,7 +2,7 @@
 layout: post
 title:  "Backmans böcker"
 date:   2025-11-28 10:00:00 +0200
-categories: svenska
+categories: svenska bocker litteratur
 ---
 Det var en stund sedan jag skrev något här men nu är hjärnan full med saker som måste ut.
 

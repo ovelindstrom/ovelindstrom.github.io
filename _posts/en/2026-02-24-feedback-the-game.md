@@ -2,7 +2,7 @@
 layout: post
 title: "Feedback or Not? - The Game"
 date: 2026-02-24 10:00:00 +0200
-categories: english code bash
+categories: english bash code
 ---
 Have you ever received feedback that felt more like criticism than coaching? Or worse—feedback that crossed professional boundaries? The ability to distinguish between different types of feedback is a crucial skill in any workplace, yet it's often taken for granted. That's why I built **Feedback or Not?** — an interactive game designed to help developers, testers, managers, and team members develop their feedback recognition skills.
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Make Multifactor authentication easy"
 date: 2025-06-18 08:00:00 +0200
-categories: english
+categories: english authentication mfa security
 ---
 __Scene:__
 

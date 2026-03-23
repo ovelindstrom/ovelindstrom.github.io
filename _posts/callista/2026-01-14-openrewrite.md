@@ -2,7 +2,7 @@
 layout: post
 title: Beyond Find-And-Replace - a 15-Year Java Leap using OpenRewrite
 date: 2026-01-14
-categories: callista code java diff yaml
+categories: callista code diff java yaml
 ---
 During the fall, I worked for a Swedish government organisation that has a large legacy codebase. This is a summary of the findings and ways of working that emerged during the project.
 

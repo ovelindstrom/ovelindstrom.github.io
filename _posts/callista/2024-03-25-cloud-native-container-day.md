@@ -2,9 +2,8 @@
 layout: post
 title: Cloud Native & Container Day 2024
 date: 2024-03-25
-categories: callista
+categories: callista cloud-native conference containers
 ---
-
 Jag har varit på Cloud Native & Container Day. Här kommer en kort reflektion och takeaways från årets evenemang och lite om vad som är hett och vad som kommer.
 
 
