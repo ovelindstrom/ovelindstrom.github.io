@@ -41,9 +41,9 @@ And that is the key to the mindset change. Now we are two riders that can lead a
 
 This is the real win. When the sum of the knowledge and the abilities grows in an organisation, not just the depth of one person's head.
 
-This insight did hit me like a seagul to the head at Philips Island during one of the first bigger project I was Scrum Master at. We did good in the team and ever morning, I started "the script" on my computer and fetched all the new translations from the translation engine and pushed it to the Git repository.
+This insight did hit me like a seagull to the head at Phillip Island during one of the first bigger project I was Scrum Master at. We did good in the team and every morning, I started "the script" on my computer and fetched all the new translations from the translation engine and pushed it to the Git repository.
 
-And then came Vabbruari, and I had to focus on a very sick 4 year old and my computer was still locked in my cabinet at work. But that should not be a problem right? The script was checked into our script repo. But the access key was not. It was only on my computer and I had never come around to automate this. Sometime, you are so close to the edge of grip that all it takes is a bit higher track temperature to crash.
+And then came Vabbruari — the Swedish parent's name for February, when every daycare kid is sick and half the workforce disappears - and I had to focus on a very sick 4 year old and my computer was still locked in my cabinet at work. But that should not be a problem right? The script was checked into our script repo. But the access key was not. It was only on my computer and I had never gotten around to automate this. Sometimes, you are so close to the edge of grip that all it takes is a bit higher track temperature to crash.
 
 ## Documentation Debt
 
