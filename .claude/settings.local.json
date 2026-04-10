@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(bundle exec:*)",
-      "Bash(curl -s https://api.github.com/repos/actions/checkout/releases/latest)"
+      "Bash(curl -s https://api.github.com/repos/actions/checkout/releases/latest)",
+      "mcp__claude_ai_Atlassian__getConfluencePage"
     ]
   }
 }
