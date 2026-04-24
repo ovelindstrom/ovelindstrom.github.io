@@ -5,6 +5,8 @@ date: 2026-04-24
 categories: english software architecture
 ---
 
+![AI generated splash image of a car dashboard with business metrics](/images/posts/car-dashboard.png)
+
 I was sitting in yet another goal-setting presentation last week. Slides. Fancy graphs. Ambitious numbers. "We want ten thousand active weekly users." Applause. The room nods. The presentation ends.
 
 And then I reached for DataDog.
