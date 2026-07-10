@@ -30,7 +30,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.codecadence.se/"
 enforce_ssl: "https://blog.codecadence.se/"
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: /images/cclogo-26.png
+avatar: /images/cclogo-26-crop-nobg.png
 
 # Social Links / Footer Links:
 footer-links:

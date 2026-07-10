@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
@@ -12,54 +12,84 @@
     href="{{ site.baseurl }}/feed.xml" />
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
-  <meta name="theme-color" content="#000000">
+  <meta name="theme-color" content="#e85d3a">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2698662036644282"
+     crossorigin="anonymous"></script>
   {% include analytics_head.html %}
 </head>
 
 <body>
   <div id="bar"></div>
-  <div class="wrapper-container">
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}"
-              alt="{{ site.title }}" /></a>
 
-          <div class="site-info">
-            <p class="site-description">{{ site.description }}</p>
-          </div>
+  <div class="wrapper-masthead">
+    <div class="container">
+      <header class="masthead">
+        <a href="{{ site.baseurl }}/" class="site-avatar" aria-label="{{ site.title }} — home">
+          <img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.title }}" />
+        </a>
 
-          <nav>
-            <a href="{{ site.baseurl }}/">Home</a>
-            <a href="{{ site.baseurl }}/welcome-to-svenska/">Välkommen</a>
-            <a href="{{ site.baseurl }}/search">Search</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-            <a href="{{ site.baseurl }}/archive">Archive</a>
-            <a href="{{ site.baseurl }}/callista-posts">Callista Posts</a>
-          </nav>
-        </header>
-      </div>
-    </div>
-
-    <div class="wrapper-main">
-      <div id="main" role="main" class="container">
-        {{ content }}
-      </div>
-    </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-          <div class="footer-license" style="margin-top: 20px; font-size: 0.9em; text-align: center;">
-            <p>Content licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a> © {{ site.time | date: '%Y' }} {{ site.author }}</p>
-          </div>
-        </footer>
-      </div>
+        <nav>
+          <a href="{{ site.baseurl }}/">Feed</a>
+          <a href="{{ site.baseurl }}/archive">Archive</a>
+          <a href="{{ site.baseurl }}/about">About</a>
+          <a href="{{ site.baseurl }}/search">Search</a>
+          <a href="{{ site.baseurl }}/welcome-to-svenska/">SV</a>
+        </nav>
+      </header>
     </div>
   </div>
 
+  {% if page.url == "/" %}
+  <div class="container">
+    <section class="manifesto">
+      <span class="mono-eyebrow">Journal · Est. 1973 · Mariehamn, Åland</span>
+      <h1>Shut up and<br>[<span class="accent">code</span> | <span class="accent">pedal</span>] faster.</h1>
+      <p>A logbook of software craft, long climbs and mechanical curiosity <br/>
+        — by Ove Lindström. New entries most Fridays. No newsletter, only RSS.</p>
+    </section>
+  </div>
+  {% endif %}
+
+  <div class="wrapper-main">
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+  </div>
+
+  <div class="wrapper-footer">
+    <div class="container">
+      <footer class="footer">
+        <div class="footer-social">
+          {% include svg-icons.html %}
+        </div>
+        <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:20px;">
+          <div style="display:flex;align-items:center;gap:12px;">
+            <img src="{{ site.baseurl }}/images/cclogo-mark.png" alt="Code &amp; Cadence logo" width="42" height="42" style="width:42px;height:42px;flex:none;" />
+            <div>
+              <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;letter-spacing:-0.02em;color:#1a1a1a;font-size:16px;text-transform:none;letter-spacing:normal;">
+                CODE &amp; CADENCE
+              </div>
+              <div style="margin-top:6px;">Ove Lindström · ove@codecadence.se</div>
+            </div>
+          </div>
+          <div style="display:flex;gap:22px;">
+            <a href="https://github.com/{{ site.footer-links.github }}" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="{{ site.baseurl }}/feed.xml">RSS</a>
+            <a href="{{ site.baseurl }}/archive">Archive</a>
+            <a href="{{ site.baseurl }}/privacy">Privacy</a>
+          </div>
+        </div>
+        <div class="footer-license">
+          Set in Space Grotesk &amp; Inter · Content licensed <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> © {{ site.time | date: '%Y' }} {{ site.author }}
+        </div>
+      </footer>
+    </div>
+  </div>
 
   {% include cookie-consent.html %}
 </body>

@@ -11,9 +11,9 @@ Don't take things you read here too serious.
 
 The site is build with [jekyllrb.com](https://jekyllrb.com/) and run on GitHub pages.
 
-It uses the [Reverie Theme](https://github.com/amitmerchant1990/reverie) by Amit Merchant.
+It is originally based on the [Reverie Theme](https://github.com/amitmerchant1990/reverie) by Amit Merchant and then refined.
 
-Be nice.
+Be kind, rewind.
 
 ## License
 

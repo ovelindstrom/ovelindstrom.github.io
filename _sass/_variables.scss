@@ -1,28 +1,39 @@
-
 //
-// VARIABLES
+// VARIABLES — Code & Cadence (Charcoal & Ember)
 //
 
-// Colors
-$blue: #4183C4;
+// Palette
+$ink:          #1a1a1a;
+$ink-2:        #2d2d2d;
+$ink-3:        #4a4a4a;
+$ink-muted:    #6b6b6b;
+$ink-faint:    #a3a3a3;
+$rule:         rgba(26, 26, 26, 0.12);
+$surface:      #f7f5f0;   // warm paper
+$surface-2:    #efece5;
+$brand:        #e85d3a;   // ember
+$brand-hover:  #cf4a2a;
 
-// Grays
-$black: #000;
-//$darkerGray: #222;
-$darkerGray: #d79139;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
-$white: #fff;
+// Legacy aliases (kept so older partials keep compiling)
+$blue:        $brand;
+$black:       $ink;
+$darkerGray:  $ink-2;
+$darkGray:    $ink-3;
+$gray:        $ink-muted;
+$lightGray:   $surface-2;
+$white:       $surface;
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+$display: "Space Grotesk", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+$sans:    "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+$mono:    "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 
-// Mobile breakpoints
+// Legacy aliases
+$helvetica:      $sans;
+$helveticaNeue:  $sans;
+$georgia:        $sans;
+
+// Mobile breakpoint (kept for compatibility with existing @include mobile calls)
 @mixin mobile {
-  @media screen and (max-width: 640px) {
-    @content;
-  }
+  @media screen and (max-width: 640px) { @content; }
 }
